@@ -1,0 +1,149 @@
+/* CSS */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(248, 248, 249);
+  min-height: 100vh;
+  /* Set minimum height to full viewport height */
+}
+
+.search-container {
+  background-color: rgb(159, 235, 159);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+  height: 6vh;
+  width: 42vh;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 13vh;
+  margin-left: 37vw;
+  border-radius: 10px;
+}
+
+.profile-container {
+  position: relative;
+  left: 56vh;
+  top: 5vh;
+  background-color: #f6d3d3;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+  border: 0.5px solid black;
+  width: 98vh;
+  border-radius: 10px;
+  height: auto;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profile img {
+  border-radius: 50%;
+  /* Make profile image circular */
+  width: 108px;
+  /* Set smaller width */
+  height: 108px;
+  /* Set smaller height */
+  margin-bottom: 10px;
+  /* Add some space below the image */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+.repositories-list a {
+  display: block;
+  padding: 5px 0;
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+
+.repositories-list a:hover {
+  color: darkblue;
+}
+
+
+
+.repositories {
+  position: fixed;
+  top: 37vh;
+  left: 121vh;
+  width: 30vh;
+  max-height: 31vh;
+
+
+}
+
+.heading_repo {
+  position: relative;
+  top: -4vh;
+
+}
+
+.repositories-list {
+  position: relative;
+  top: -5vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 22vh;
+  margin-left: -3vh;
+
+}
+
+
+
+.input_type {
+  border-radius: 5px;
+  height: 3vh;
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 3px;
+  margin-left: 1vh;
+
+}
+
+.userProfile {
+  position: relative;
+  left: 8vh;
+
+}
+
+.heading-userpro {
+  position: relative;
+  left: -2vh;
+
+}
+
+
+
+.username {
+  margin-top: 1vh;
+  margin-left: -3vh;
+  font-size: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(194, 174, 174, 0.5);
+
+}
+
+.userStats {
+  position: relative;
+  left: 12vh;
+
+}
+
+.heading_userstats {
+  position: relative;
+  top: -4vh;
+  left: 1vh;
+
+}
+
+.userdata {
+  position: relative;
+  top: -3vh;
+  left: 3vh;
+}
