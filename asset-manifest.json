@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/GitQuest1/static/css/main.228d382d.css",
+    "main.js": "/GitQuest1/static/js/main.637b0f8c.js",
+    "static/js/592.d1a00bc1.chunk.js": "/GitQuest1/static/js/592.d1a00bc1.chunk.js",
+    "index.html": "/GitQuest1/index.html",
+    "main.228d382d.css.map": "/GitQuest1/static/css/main.228d382d.css.map",
+    "main.637b0f8c.js.map": "/GitQuest1/static/js/main.637b0f8c.js.map",
+    "592.d1a00bc1.chunk.js.map": "/GitQuest1/static/js/592.d1a00bc1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.228d382d.css",
+    "static/js/main.637b0f8c.js"
+  ]
+}
